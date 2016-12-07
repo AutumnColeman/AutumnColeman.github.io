@@ -2,25 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <script src="main.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Special+Elite" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Autumn Coleman</title>
   </head>
+  <script src="angular.js"></script>
+  <script src="angular-ui-router.js"></script>
   <body>
-    <div class="row main">
+    <div ng-app="main" class="row main">
       <div class="col-xs-12">
-        <img class="logo" src="logo1.jpg" alt="Autumn Logo" />
+        <!-- <img class="logo" src="logo1.jpg" alt="Autumn Logo" /> -->
+        <ui-view></ui-view>
       </div>
     </div>
     <div class="row">
       <div class="col-xs-3"></div>
       <div class="col-xs-7">
         <ul>
-          <li><a href="about.html">about</a></li>
-          <li><a href="portfolio.html">portfolio</a></li>
-          <li><a href="#skills">skills</a></li>
-          <li><a href="contact.html">contact</a></li>
+          <li><a ui-sref="about">about</a></li>
+          <li><a ui-sref="portfolio">portfolio</a></li>
+          <!-- <li><a href="#skills">skills</a></li> -->
+          <li><a ui-sref="contact">contact</a></li>
         </ul>
       </div>
       <!-- <div class="col-xs-2"></div> -->
