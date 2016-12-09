@@ -76,14 +76,14 @@ a:hover {
   /*font-family: 'Josefin Slab', serif;*/
 }
 .port_icons {
-  width: 100px;
+  width: 250px;
   filter: grayscale(100%);
 }
 
 .port_icons:hover {
-  width: 200px;
   filter: grayscale(0%);
 }
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
