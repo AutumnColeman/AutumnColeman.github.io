@@ -57,11 +57,20 @@ a:hover {
 .contact_info {
   color: #FFF;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.2em;
   position: absolute;
-  left: 51%;
-  top: 56%;
+  left: 47%;
+  top: 55%;
   transform: translate(-50%, -50%);
+}
+ul.contact_icons {
+  position: absolute;
+  top: 60%;
+  left: 36%;
+  color: whitesmoke;
+}
+.contact_icons a{
+  color: whitesmoke;
 }
 .name {
   text-decoration: none;
@@ -91,6 +100,21 @@ a:hover {
   position: absolute;
     right: 35%;
     top: 200%;
+}
+.hecho {
+  text-align: right;
+}
+.hecho a{
+  color: #000;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1em;
+  letter-spacing: normal;
+}
+p.hecho {
+  color: #000;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: .6em;
+  letter-spacing: normal;
 }
 /* The Modal (background) */
 .modal {
