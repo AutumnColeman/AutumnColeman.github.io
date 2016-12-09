@@ -43,7 +43,23 @@ a:hover {
   text-decoration: none;
   color: red;
 }
+a.about {
+  color: white;
+  letter-spacing: normal;
+  display: inline;
+}
 .info {
+  color: #FFF;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.3em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /*transform: translate(-51%, -85%);*/
+
+}
+a.info {
   color: #FFF;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.3em;
@@ -73,7 +89,7 @@ ul.contact_icons {
   color: whitesmoke;
 }
 .contact_icons a:hover {
-  color: red;
+  color: grey;
 }
 .name {
   text-decoration: none;

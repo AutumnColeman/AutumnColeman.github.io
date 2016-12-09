@@ -20,6 +20,11 @@ app.config(function($stateProvider, $urlRouterProvider) {
     templateUrl: 'portfolio.html'
   })
   .state({
+    name: 'skills',
+    url: '/skills',
+    templateUrl: 'skills.html'
+  })
+  .state({
     name: 'contact',
     url: '/contact',
     templateUrl: 'contact.html'
