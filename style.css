@@ -77,13 +77,21 @@ a:hover {
 }
 .port_icons {
   width: 250px;
-  filter: grayscale(100%);
+  /*filter: grayscale(100%);*/
 }
 
 .port_icons:hover {
-  filter: grayscale(0%);
+    filter: grayscale(0%);
 }
-
+.portfolio {
+  width: 580px;
+  float: right;
+}
+.projects {
+  position: absolute;
+    right: 35%;
+    top: 200%;
+}
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
