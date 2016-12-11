@@ -4,14 +4,80 @@
 </div>
 <div class="col-xs-6 pull-left">
   <ul class="projects">
-    <li><a href="https://github.com/AutumnColeman/grillber"><img class="port_icons" src="img/grillber_tlogo.png" /></a>
+    <li><img class="port_icons" src="img/blackjack_logot.png" data-toggle="modal" data-target="#blackjack" />
   </li>
-    <li><a href="https://github.com/AutumnColeman/Blackjack_jQuery"><img class="port_icons" src="img/blackjack_logot.png" /></a>
-  </li>
-    <li><a href="https://github.com/AutumnColeman/super_mario_memory"><img class="port_icons" src="img/memory_logo.png" onmouseover="this.src='memory_logo_after.png'" onmouseout="this.src='memory_logo.png'" /></a></li>
-    <li><a href="https://github.com/AutumnColeman/cope"><img class="port_icons" src="img/cope_tlogo.png" />
+    <li><img class="port_icons" src="img/memory_logo.png" onmouseover="this.src='img/memory_logo_after.png'" onmouseout="this.src='img/memory_logo.png'" data-toggle="modal" data-target="#memory"/></li>
+    <li><img class="port_icons" src="img/cope_tlogo.png" data-toggle="modal" data-target="#cope" />
   </li>
   </ul>
-  </a>
 
+
+</div>
+
+<!-- BlackJack Modal -->
+  <div class="modal fade" id="blackjack" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <img class="port_icons" src="img/blackjack_logot.png" alt="BlackJack Logo"/>
+        </div>
+        <div class="modal-body">
+          <img src="img/blackjack_main.png" alt="blackjack main" width="200px" />
+          <h3>Built with</h3>
+          <p>HTML/CSS ·  SCSS · JavaScript · jQuery</p>
+          <a href="https://github.com/AutumnColeman/Blackjack_jQuery">Github</a>
+          <a href="http://blackjack.surge.sh/blackjack.html">Live Demo</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Memory Modal -->
+  <div class="modal fade" id="memory" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <img class="port_icons" src="img/memory_logo.png" onmouseover="this.src='img/memory_logo_after.png'" onmouseout="this.src='img/memory_logo.png'" alt="Memory Logo" />
+        </div>
+        <div class="modal-body">
+          <img src="img/ncard_game.png" alt="memory main" width="200px" />
+          <h3>Built with</h3>
+          <p>HTML/CSS ·  SCSS · JavaScript · jQuery</p>
+          <a href="https://github.com/AutumnColeman/super_mario_memory">Github</a>
+          <a href="#">Live Demo</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cope Modal -->
+  <div class="modal fade" id="cope" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <img class="port_icons" src="img/cope_tlogo.png" alt="cope logo" />
+        </div>
+        <div class="modal-body">
+          <h3>Built with</h3>
+          <p>HTML/CSS ·  SCSS · JavaScript · jQuery</p>
+          <a href="https://github.com/AutumnColeman/cope">Github</a>
+          <a href="#">Live Demo</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

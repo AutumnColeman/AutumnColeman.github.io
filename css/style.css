@@ -20,17 +20,17 @@
   width: 400px;
 }
 
-ul {
+.nav ul {
   float: left;
   /*padding: 6px 40px;*/
 }
 
-li {
+.nav li {
   list-style-type: none;
   display: inline;
   padding: 15px;
 }
-a {
+.nav a{
   /*font-family: 'Special Elite', cursive;*/
   text-decoration: none;
   color: #000;
@@ -85,6 +85,11 @@ ul.contact_icons {
   left: 36%;
   color: whitesmoke;
 }
+.contact_icons li{
+  list-style-type: none;
+  display: inline;
+  padding: 15px;
+}
 .contact_icons a{
   color: whitesmoke;
 }
@@ -120,6 +125,11 @@ ul.contact_icons {
     right: 35%;
     top: 200%;
 }
+/*img.port_icons:last-child {
+  width: 100px;
+}*/
+
+}
 .hecho {
   margin: 5px 44%;
 }
@@ -134,4 +144,29 @@ p.hecho {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: .6em;
   letter-spacing: normal;
+      text-align: center;
+}
+
+.projects li {
+  list-style-type: none;
+
+}
+.modal-body {
+
+
+}
+
+.modal.ng-enter {
+  transition: opacity .5s ease-out;
+  opacity: 0;
+}
+.modal.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+.modal.ng-leave {
+  transition: opacity .5s ease-out;
+  opacity: 1;
+}
+.modal.ng-leave.ng-leave-active {
+  opacity: 0;
 }

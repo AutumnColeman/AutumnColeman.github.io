@@ -1,5 +1,28 @@
-var app = angular.module('main', ['ui.router']);
+var app = angular.module('main', ['ui.router', 'ui.bootstrap']);
 //, 'ui.bootstrap
+// var ModalDemoCtrl = function ($scope, $modal) {
+//
+//   $scope.open = function () {
+//
+//     var modalInstance = $modal.open({
+//       templateUrl: 'myModalContent.html',
+//       controller: ModalInstanceCtrl
+//     });
+//
+//   };
+// };
+//
+//
+// var ModalInstanceCtrl = function ($scope, $modalInstance) {
+//
+//   $scope.ok = function () {
+//     $modalInstance.close("ok");
+//   };
+//
+//   $scope.cancel = function () {
+//     $modalInstance.dismiss("cancel");
+//   };
+// };
 
 app.config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
