@@ -146,16 +146,15 @@ p.hecho {
   letter-spacing: normal;
       text-align: center;
 }
-
 .projects li {
   list-style-type: none;
-
 }
-.modal-body {
-
-
+.modal-body a {
+  color: black;
 }
-
+.modal-body a:hover {
+  color: red;
+}
 .modal.ng-enter {
   transition: opacity .5s ease-out;
   opacity: 0;
