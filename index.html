@@ -10,6 +10,8 @@
     <!-- <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Special+Elite" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Josefin+Slab:600|Sacramento" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
     <link rel="stylesheet" href="css/style.css">
     <title>Autumn Coleman</title>
 
@@ -25,20 +27,26 @@
 
 
   <body ng-app="main">
-    <div class="row main">
+    <!-- <div class="row main">
       <ui-view></ui-view>
-    </div>
+    </div> -->
     <div class="row">
       <div class="col-xs-3"></div>
       <div class="col-xs-8 nav">
         <p class="name">Autumn Coleman</p>
         <ul>
-          <li><a ui-sref="about">about</a></li>
-          <li><a ui-sref="portfolio">portfolio</a></li>
-          <li><a ui-sref="contact">contact</a></li>
+          <li><a ui-sref="about" class="animated fadeInUp">about</a></li>
+          <li><a ui-sref="portfolio" class="animated fadeInUp">portfolio</a></li>
+          <li><a ui-sref="contact" class="animated fadeInUp">contact</a></li>
         </ul>
       </div>
     </div>
+    <hr>
+<!-- uiview  -->
+<div class="row main">
+  <ui-view></ui-view>
+</div>
+
     <div class="row">
       <div class="col-xs-12">
         <p class="hecho">

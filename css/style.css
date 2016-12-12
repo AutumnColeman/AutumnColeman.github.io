@@ -1,23 +1,20 @@
-/*.row{
-    overflow: hidden;
-}
-
-[class*="col-"]{
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
-}*/
 .main {
   /*height: 300px;*/
   text-align: center;
+  overflow: hidden;
 }
 .logo {
     width: 300px;
 }
 .about {
-  width: 580px;
+  /*background-image: url("img/brush-stroke-banner-3.png"); */
+  /*overflow: hidden;*/
+  /*width: 580px;
+  margin-top: -2%;*/
 }
 .contact {
-  width: 400px;
+  width: 500px;
+  margin: -1%;
 }
 
 .nav ul {
@@ -48,16 +45,37 @@ a.about {
   letter-spacing: normal;
   display: inline;
 }
+.me {
+  width: 250px;
+  position: absolute;
+  top: 28%;
+  left: 61%;
+}
+.details {
+  position: absolute;
+  top: 69%;
+  left: 22%;
+  width: 500px;
+}
 .info {
-  color: #FFF;
+  color: ghostwhite;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.3em;
+  border: 2px solid ghostwhite;
+  padding: 23px;
   position: absolute;
-  left: 50%;
-  top: 50%;
+  top: 40%;
+  left: 38%;
+  width:400px;
   transform: translate(-50%, -50%);
   /*transform: translate(-51%, -85%);*/
 
+}
+hr {
+  border: 0;
+ height: 1px;
+ background: #333;
+ background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 a.info {
   color: #FFF;
@@ -82,7 +100,7 @@ a.info {
 ul.contact_icons {
   position: absolute;
   top: 60%;
-  left: 36%;
+  left: 33%;
   color: whitesmoke;
 }
 .contact_icons li{
@@ -93,8 +111,8 @@ ul.contact_icons {
 .contact_icons a{
   color: whitesmoke;
 }
-.contact_icons a:hover {
-  color: grey;
+.contact_icons a:hover i{
+  color: crimson;
 }
 .name {
   text-decoration: none;
@@ -112,24 +130,35 @@ ul.contact_icons {
   width: 250px;
   /*filter: grayscale(100%);*/
 }
-
-.port_icons:hover {
-    filter: grayscale(0%);
+.port_iconss {
+  width: 150px;
+  padding: 13px;
+}
+i {
+  color: ghostwhite;
+  margin-left: 8px;
+}
+/*.port_icons:hover {
+    width: 300px;
+}
+.port_iconss:hover {
+  width: 200px;*/
 }
 .portfolio {
-  width: 580px;
-  float: right;
+  width: 510px;
 }
 .projects {
   position: absolute;
-    right: 35%;
-    top: 200%;
+  right: 38%;
+  top: 25%;
 }
 /*img.port_icons:last-child {
   width: 100px;
 }*/
-
+.projects li {
+  padding: 6px;
 }
+
 .hecho {
   margin: 5px 44%;
 }
@@ -149,11 +178,25 @@ p.hecho {
 .projects li {
   list-style-type: none;
 }
+.portfolio {
+  color: ghostwhite;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.3em;
+  border: 2px solid ghostwhite;
+  padding: 5px;
+  position: absolute;
+  top: 50%;
+  left: 69%;
+  transform: translate(-50%, -50%);
+}
 .modal-body a {
   color: black;
 }
 .modal-body a:hover {
   color: red;
+}
+.modal-footer {
+  text-align: center;
 }
 .modal.ng-enter {
   transition: opacity .5s ease-out;
